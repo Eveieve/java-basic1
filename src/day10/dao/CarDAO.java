@@ -23,4 +23,5 @@ public class CarDAO {
         System.out.println(car.getModel()+"데이터베이스에 car 1대 정보 갱신");
     }
 
+
 }

@@ -13,6 +13,7 @@ public class CarMain {
         tire.setModel("한국타이어");
         CarDTO car2 = new CarDTO("캐스퍼",tire);
         CarDAO carDao = new CarDAO(car2);
+        System.out.println(car2);
         carDao.insert();
         carDao.update();;
         carDao.select();
