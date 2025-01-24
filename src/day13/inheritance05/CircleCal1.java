@@ -13,7 +13,7 @@ public class CircleCal1 extends CircleCal{
     public double areaCircle(double radius) {
          double result = super.areaCircle(radius);
         System.out.println("부모 버전 계산 : " + result);   // 자식메소드와 부모메소드의 공동 작업처리 기법
-        // 부모 메소드를 재사용함으로써 자식 메소드의 중복 작업을 최소화 할 수 있다. 
+        // 부모 메소드를 재사용함으로써 자식 메소드의 중복 작업을 최소화 할 수 있다.
         return Math.PI * radius * radius;
     }
 // 오버라이딩(메소드의 재정의)은 부모 메소드는 숨겨지고, 자식 메소드만 사용되기 때문에 부모메소드의 일부만
