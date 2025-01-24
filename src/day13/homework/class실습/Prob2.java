@@ -1,4 +1,4 @@
-package home;
+package day13.homework.class실습;
 
 public class Prob2 {
 	public static void main(String[] args) {
